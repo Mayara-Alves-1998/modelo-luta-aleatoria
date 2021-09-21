@@ -13,5 +13,9 @@ public class UltraCombat {
 		l[4] = new Lutador ("UFOCobol", "Brasil", 37, 1.70, 119.3, 5, 4, 3);
 		l[5] = new Lutador ("Nerdaart", "EUA", 30, 1.81, 105.7, 12, 2, 4);
 		
+		Luta UEC01 = new Luta();
+		UEC01.marcarLuta(l[0], l[1]);
+		UEC01.lutar();
+		
 	}
 }
