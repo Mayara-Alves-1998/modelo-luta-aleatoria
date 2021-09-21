@@ -94,8 +94,9 @@ public class Lutador implements LutadorInter{
 		System.out.println("-------------Apresentando-------------");
 		System.out.println("Lutador: " + this.getNome());
 		System.out.println("Origem: " + this.getNacionalidade());
-		System.out.println(this.getIdade() + "anos");
+		System.out.println(this.getIdade() + " anos");
 		System.out.println(this.getAltura() + "m de altura");
+		System.out.println("Categoria: " + this.getCategoria());
 		System.out.println("Pesando " + this.getPeso() + "kg");
 		System.out.println("Ganhou " + this.getVitorias());
 		System.out.println("Perdeu: " + this.getDerrotas());
